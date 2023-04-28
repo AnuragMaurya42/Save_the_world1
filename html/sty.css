@@ -1,0 +1,52 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgb(246 138 131 / 22%);
+    color: #f1f1f1;
+    width: 50%;
+    padding: 0px 228px;
+    margin: 2px 262px;
+    border-radius: 50px;
+  }
+  .nevigation{
+    position: fixed;
+    top: 1px;
+    border-radius: 30px;
+    background-color: rgb(255 103 241 / 53%);
+    width: 100%;
+    margin: 5px auto;
+    padding: 4px 5px;
+  }
+  .nevigation li{
+
+    width: 10%;
+    list-style: none;
+    display:inline-block;
+  }
+  .nevigation li:hover{
+    background-color: rgb(142 103 255 / 82%);
+cursor: pointer;
+  }
+  #search{
+    position:fixed;
+    right: 23px;
+    top: 29px;
+    border-radius: 20px;
+  }
+  img{
+    position: fixed;
+    bottom: 2px;
+    width: 264px;
+    height: 172px;
+    border-radius: 60px
+  }
